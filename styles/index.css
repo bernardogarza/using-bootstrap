@@ -1,8 +1,33 @@
+body{
+    margin: 0 125px;
+    background: #f4f5f6;
+}
+
+/* BS Modifiers */
+
+
 /* Media Queries */
 
 
 /* Header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    background: #f72210;
+    padding: 20px 10px 15px 10px;
+}
+.header-logo{
 
+}
+
+.sign-in{
+    color:white;
+    text-decoration: none;
+}
+.suscribe{
+
+}
 
 /* Nav-bar */
 
