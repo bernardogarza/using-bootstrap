@@ -221,6 +221,10 @@ main{
     border: none;
 }
 
+.opinion-image img{
+    margin-right: 5px;
+}
+
 .opinion-comment{
     display: flex;
     justify-content: space-between;
@@ -274,6 +278,7 @@ main{
 
 .newsletter-signup-logo{
     display: flex;
+    
 }
 
 .newsletter-signup-logo img{
@@ -309,5 +314,82 @@ main{
 .lk-2:hover{
     color:#333;
 }
+
+
+/* Second Section */
+
+.issue{
+    display:flex;
+    flex-direction: column;
+}
+.issue a{
+    background: #f4f5f6;
+    color: #333;
+}
+
+.issue a:hover{
+    background: #dbdcdd;
+    color: #333;
+}
+
+.flex{
+    display: flex;
+}
+
+.title{
+    justify-content: center;
+    width:100%;
+    margin-left: 0;
+    border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 15px;
+
+}
+.title img{
+    margin-right: 10px;
+    width: 29px;
+    height: 28px;
+}
+.title p{
+    text-transform: capitalize;
+    color: black;
+    font-weight: bold;
+    font-size: 18px
+}
+
+.magazine-content{
+    flex-direction: column;
+}
+
+.first-row-magazine-content{
+    width: 75%;
+    padding-left: 15px;
+}
+.magazine-content-image img{
+    width: 100%;
+}
+.magazine-content-topic{
+    display: flex;
+}
+.magazine-content-topic p:nth-of-type(1){
+    color: white;
+    background:#f72210;
+    padding: 0 7px;
+    font-weight: bold;
+    margin-right: 7px;
+}
+.magazine-content-topic p:nth-of-type(2){
+    color: #f72210;
+    font-weight: bold;
+}
+
+.editors-pick{
+    padding-top: 20px;
+}
+
+.slideshows{
+    padding-top: 20px;
+}
+
+
 
 /* Footer */
