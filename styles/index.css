@@ -425,3 +425,86 @@ main{
 
 
 /* Footer */
+
+footer{
+    border-top: 2px solid #f4f5f6;
+    background-color: #fff;
+    padding: 30px;
+    
+}
+
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;    
+}
+
+.copyright-logo{
+    display: flex;
+    align-items: flex-end;
+}
+
+.copyright-logo img{
+margin-right: 15px;
+margin-bottom: 12px;
+}
+
+.copyright-logo p{
+    align-items: flex-end; 
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.social-networks{
+    font-size: 26px;
+    color: #666;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 12px;
+}
+
+.fa-facebook-square{
+    cursor: pointer;
+    margin: 5px;
+}
+.fa-facebook-square:hover{
+    color:#3b5998
+}
+
+.bottom-footer{
+    border-top: 1px solid #d9d9d9;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+    display: flex;
+}
+
+.bottom-footer li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.bottom-footer li a{
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+}
+
+.bottom-footer li a:hover{
+    color: black;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+}
+
+.leaf{
+    margin: 6px 0;
+}
