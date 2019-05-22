@@ -16,13 +16,8 @@ text-decoration: none;
 color: none;
 }
 
-/* BS Modifiers */
-
-
-/* Media Queries */
-
-
 /* Header */
+
 .top-header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -507,4 +502,42 @@ margin-bottom: 12px;
 
 .leaf{
     margin: 6px 0;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px){
+    .bottom-header{
+    display: none;
+    }
+
+    .top-header{
+        display: flex;
+        height: 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .top-header div{
+        padding-bottom: 10px;
+    }
+
+    .top-header div:nth-of-type(1){
+        display: none;
+    }
+    
+    .header-logo{
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .header-logo img{
+        height: 20px;
+    }
+
+    .sign-in,
+    .suscribe{
+        font-size: 12px;
+    }
+
 }
