@@ -5,29 +5,27 @@
     padding: 0;
 }
 .area{
-    /* margin: 0 -100px; */
-    width: auto;
     background: #fff;
+    width: auto;
 }
 
 
 body a:hover{
-text-decoration: none;
-color: none;
+    text-decoration: none;
 }
 
 /* Header */
 
 .top-header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     align-items: baseline;
     background: #f72210;
-    padding: 20px 10px 15px 10px;
+    display: grid;
     font: "Roboto Condensed",sans-serif;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 10px 15px 10px;
 }
 
-.top-header div date{
+.top-header div .date{
     color: #fff;
     font-weight: lighter;
     padding-left: 25px;
@@ -45,48 +43,49 @@ color: none;
 
 .sign-in{
     color:white;
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 .sign-in:hover{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
 }
 .suscribe{
     background: white;
-    text-decoration: none;
     color: #f72210;
-    padding: 5px 8px 5px 12px;
-    font-weight: bold;
     font-size: 18px;
+    font-stretch: semi-condensed;
+    font-weight: bold;
     letter-spacing: -1px;
-    font-stretch: semi-condensed
+    padding: 5px 8px 5px 12px;
+    text-decoration: none;
 }
 .suscribe:hover{
-    text-decoration: none;
     color:#f72210;
+    text-decoration: none;
 }
 
 /* Bottom Header */
 .bottom-header{
     background: white;
-    margin: 0;
-    font-family: Arial,Helvetica,sans-serif;
-    width: 100%;
-    padding-top: 15px;
-    padding-bottom: 15px;
     border-bottom: solid #f4f5f6 2px;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    width: 100%;
     z-index: 1;
 }
 
-.bottom-header a{
-    padding: 0;
-    text-align: center;
+.bottom-header a,
+.bottom-header input{
+    align-items: center;
     border-right: solid #d9d9d9 1px;
     color: black;
     font-weight: bold;
-    align-items: center;
     letter-spacing: -0.5px;
+    padding: 0;
+    text-align: center;
 }
 .bottom-header a:hover{
     color:#f72210;
@@ -94,11 +93,9 @@ color: none;
 
 .bottom-header input{
     width: 54px;
-    align-content: left;
 }
 
 .nav-element input{
-    align-items: left;
 } 
 
 .bottom-header a:nth-of-type(9),
@@ -129,14 +126,14 @@ main{
 
 .first-section-title{
     color: rgba(3,3,3,.4);
-    padding: 0;
-    font-weight: bold;
-    text-transform: uppercase;
     font-size: 16px;
-    padding-bottom: 11px;
+    font-size: 16px;
     font-stretch: normal;
-    font-size: 16px;
+    font-weight: bold;
     line-height: 16px;
+    padding-bottom: 11px;
+    padding: 0;
+    text-transform: uppercase;
 }
 .first-section-title p{
     margin:0;
@@ -151,36 +148,35 @@ main{
 }
 
 .first-section-article-title p{
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: bold;
-    font-family: "Roboto Condensed",sans-serif;
     color: black;
+    cursor: pointer;
+    font-family: "Roboto Condensed",sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
     margin-bottom: 5px;
     text-align: unset;
-    cursor: pointer;
-
 }
 .first-section-article-title p:hover{
     text-decoration: underline #f72210;
 }
 
 .first-section-article-description{
+    border-bottom: solid #d9d9d9 1px;
+    color: #333;
     font-size: 13px;
     line-height: 20px;
-    color: #333;
-    border-bottom: solid #d9d9d9 1px;
 }
 
 .first-section-related-article p{
-    font-size: 17px;
-    line-height: 20px;
-    padding: 10px 0;
     border-bottom: solid #d9d9d9 1px;
-    margin-bottom: 0;
-    font: bold 16px/20px "Roboto Condensed",sans-serif;
     color:black;
     cursor: pointer;
+    font-size: 17px;
+    font: bold 16px/20px "Roboto Condensed",sans-serif;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 10px 0;
 }
 .first-section-related-article p:hover{
     color: #f72210;
@@ -195,10 +191,10 @@ main{
 }
 
 .more-stories-article{
-    padding-top: 14px;
-    padding-bottom: 0;
     border-top: 1px solid #ddd;
     display: flex;
+    padding-bottom: 0;
+    padding-top: 14px;
 }
 
 .more-stories-image img{
@@ -206,9 +202,9 @@ main{
 }
 
 .more-stories-article > .first-section-article-title p{
-    outline: 0;
     font-size: 17px;
     line-height: 20px;
+    outline: 0;
     position: relative;
 }
 
@@ -221,9 +217,9 @@ main{
 }
 
 .opinion-comment{
+    border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
 }
 
@@ -236,24 +232,23 @@ main{
 }
 
 .opinion-autor{
-    font-size: 14px;
-    line-height: 21px;
     color: #555;
-    text-transform: uppercase;
+    font-size: 14px;
     font: bold 14px/21px "Roboto Condensed",sans-serif;
+    line-height: 21px;
+    text-transform: uppercase;
 }
 
 .latest-news-article{
-    display: flex;
     border-bottom: 1px solid #ddd;
+    display: flex;
     padding-top: 10px;
 }
 
 .latest-news-image img{
-    width: 100%;
-    vertical-align: middle;
     height: auto;
-
+    vertical-align: middle;
+    width: 100%;
 }
 
 .latest-news-article-title p{
@@ -263,43 +258,42 @@ main{
 }
 
 .newsletter-signup{
-    display: flex;
-    max-width: 300px;
-    margin: 0 auto 30px;
-    border: 1px solid #e5e5e5;
     background-color: #f4f5f6;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    margin: 0 auto 30px;
+    max-width: 300px;
     padding: 20px;
 }
 
 .newsletter-signup-logo{
     display: flex;
-    
 }
 
 .newsletter-signup-logo img{
-    width: 29px;
     height: 28px;
     margin-right: 10px;
+    width: 29px;
 }
 
 .newsletter-signup-logo p{
+    color: #333;
     font: bold 19px/19px "Roboto Condensed",sans-serif;
     text-transform: uppercase;
-    color: #333;
 }
 
 .lk{
-    display: inline-block;
-    padding: 10px 10px 10px 12px;
-    color: #fff;
-    font: bold 18px/18px "Roboto Condensed",sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 10px;
     background-color: #666666;
+    color: #fff;
+    display: inline-block;
+    font: bold 18px/18px "Roboto Condensed",sans-serif;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 12px;
+    text-transform: uppercase;
 }
 .lk:hover{
+    background-color: #959595;
     color: #fff;
-    background-color: #959595
 }
 
 .lk-2{
@@ -332,23 +326,22 @@ main{
 }
 
 .title{
-    justify-content: center;
-    width:100%;
-    margin-left: 0;
     border-bottom: 1px solid #d9d9d9;
+    justify-content: center;
     margin-bottom: 15px;
-
+    margin-left: 0;
+    width:100%;
 }
 .title img{
+    height: 28px;
     margin-right: 10px;
     width: 29px;
-    height: 28px;
 }
 .title p{
-    text-transform: capitalize;
     color: black;
+    font-size: 18px;
     font-weight: bold;
-    font-size: 18px
+    text-transform: capitalize;
 }
 
 .magazine-content{
@@ -356,9 +349,10 @@ main{
 }
 
 .first-row-magazine-content{
-    width: 75%;
     padding-left: 15px;
+    width: 75%;
 }
+
 .magazine-content-image img{
     width: 100%;
 }
@@ -366,11 +360,11 @@ main{
     display: flex;
 }
 .magazine-content-topic p:nth-of-type(1){
-    color: white;
     background:#f72210;
-    padding: 0 7px;
+    color: white;
     font-weight: bold;
     margin-right: 7px;
+    padding: 0 7px;
 }
 .magazine-content-topic p:nth-of-type(2){
     color: #f72210;
@@ -390,25 +384,25 @@ main{
 }
 .third-section-title p{
     color: #f72210;
-    font-weight: bolder;
-    font-size: 22px;
-    line-height: 22px;
-    font-stretch: narrower;
     font-family: "Roboto Condensed",sans-serif;
+    font-size: 22px;
+    font-stretch: narrower;
+    font-weight: bolder;
+    line-height: 22px;
 }
 
 .right-third{
-    padding-top: 0;
     display: flex;
     flex-direction: row;
     padding-bottom: 12px;
+    padding-top: 0;
 }
 
 .right-third p{
-    font-size: 15px;
-    font-weight: bold;
     cursor: pointer;
+    font-size: 15px;
     font-stretch: narrower;
+    font-weight: bold;
 }
 .right-third p:hover{
     color: #f72210;
@@ -422,10 +416,9 @@ main{
 /* Footer */
 
 footer{
-    border-top: 2px solid #f4f5f6;
     background-color: #fff;
+    border-top: 2px solid #f4f5f6;
     padding: 30px;
-    
 }
 
 .top-footer{
@@ -435,29 +428,29 @@ footer{
 }
 
 .copyright-logo{
-    display: flex;
     align-items: flex-end;
+    display: flex;
 }
 
 .copyright-logo img{
-margin-right: 15px;
 margin-bottom: 12px;
+margin-right: 15px;
 }
 
 .copyright-logo p{
     align-items: flex-end; 
+    color: #666;
     font-size: 12px;
     line-height: 12px;
-    text-transform: uppercase;
-    color: #666;
     margin-bottom: 12px;
+    text-transform: uppercase;
 }
 
 .social-networks{
-    font-size: 26px;
+    align-items: flex-end;
     color: #666;
     display: flex;
-    align-items: flex-end;
+    font-size: 26px;
     margin-bottom: 12px;
 }
 
@@ -471,24 +464,24 @@ margin-bottom: 12px;
 
 .bottom-footer{
     border-top: 1px solid #d9d9d9;
-    padding-top: 6px;
-    font-size: 14px;
-    line-height: 15px;
     color: #666;
     display: flex;
+    font-size: 14px;
+    line-height: 15px;
+    padding-top: 6px;
 }
 
 .bottom-footer li {
     border-right: 1px solid #d9d9d9;
-    padding-right: 10px;
-    margin-right: 10px;
     display: inline-block;
+    margin-right: 10px;
+    padding-right: 10px;
 }
 
 .bottom-footer li a{
+    color: #666;
     font-size: 14px;
     line-height: 15px;
-    color: #666;
 }
 
 .bottom-footer li a:hover{
@@ -496,8 +489,8 @@ margin-bottom: 12px;
 }
 
 .menu{
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 .leaf{
@@ -522,10 +515,10 @@ margin-bottom: 12px;
     }
 
     .top-header{
+        align-items: center;
         display: flex;
         height: 20px;
         justify-content: space-between;
-        align-items: center;
     }
 
     .top-header div{
@@ -557,8 +550,8 @@ margin-bottom: 12px;
         justify-content: left;
     }
     .issue{
-        width: 183.5px;
         height: 244.86px;
+        width: 183.5px;
     }
     .third-section-main{
         display: flex;
@@ -572,8 +565,8 @@ margin-bottom: 12px;
     }
 
     .right-third img{
-        width: 135px;
         height: 90px;
+        width: 135px;
     }
 }
 
