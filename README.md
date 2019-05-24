@@ -1,4 +1,4 @@
-# using-bootstrap
+# Cloning News Week using bootstrap
 
 This a project for the Microverse main curriculum
 
